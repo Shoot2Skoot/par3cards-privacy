@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow" />
+<title>Par 3 Cards — Privacy Policy</title>
+<style>
+  /* Single light theme. Forced via color-scheme: light so no UA layer
+     ever applies dark-mode adjustments to inputs / scrollbars / etc.
+     Privacy policies just want to be readable; dual-mode CSS was
+     producing white-on-white inside the summary box for some viewers. */
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    background: #fafafa;
+    color: #1a1a1a;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 22px 64px;
+    line-height: 1.6;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 36px 0 8px;
+    letter-spacing: -0.005em;
+    color: #1a1a1a;
+  }
+  p, ul, ol {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #1a1a1a;
+  }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; color: #1a1a1a; }
+  strong { color: #1a1a1a; }
+  a { color: #137a52; text-decoration: underline; word-break: break-word; }
+  .meta {
+    color: #666;
+    font-size: 13px;
+    margin: 4px 0 18px;
+  }
+  .summary {
+    background: #eef2ee;
+    border: 1px solid #c7d0c7;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 16px 0 20px;
+    font-size: 14px;
+    color: #1a1a1a;
+  }
+  .summary ul {
+    margin: 6px 0 0;
+    padding-left: 20px;
+  }
+  .summary li, .summary strong { color: #1a1a1a; }
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 32px 0;
+  }
+  footer {
+    font-size: 13px;
+    color: #666;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Par 3 Cards — Privacy Policy</h1>
+  <p class="meta">Last updated: 2026-05-17</p>
+
+  <p>
+    This Privacy Policy describes how Par 3 Cards ("we", "the app")
+    collects, uses, and shares information about you when you use our
+    mobile application.
+  </p>
+
+  <div class="summary">
+    <strong>Summary</strong>
+    <ul>
+      <li>We do not require an email address, phone number, or any third-party login.</li>
+      <li>We collect the bare minimum needed to run the game: a randomly-generated anonymous account identifier and a display name you choose.</li>
+      <li>We do not sell your data. We do not share your data with advertisers beyond the limited information required to serve ads (when ads are present in the app — see the <strong>Advertising</strong> section).</li>
+      <li>You can delete all of your data at any time from inside the app.</li>
+    </ul>
+  </div>
+
+  <h2>Information We Collect</h2>
+  <p>
+    <strong>Anonymous account identifier.</strong> When you first open
+    Par 3 Cards we create an anonymous account in our authentication
+    system (Supabase). This account has no email, name, phone number, or
+    other identifying information attached to it — just a random UUID.
+    The identifier is stored locally on your device so the same
+    anonymous account is reused across sessions on that device.
+  </p>
+  <p>
+    <strong>Display name.</strong> You choose a display name when joining
+    or hosting a multiplayer room. This name is shared with other
+    players in the same room so they can tell players apart. It is
+    stored against your anonymous account.
+  </p>
+  <p>
+    <strong>Game state.</strong> When you play a multiplayer game, the
+    state of the game (which cards have been played, scores, whose turn
+    it is) is stored on our server so that all players in the same
+    game see a consistent view, and so you can rejoin a game if you
+    briefly lose connection. Game state is associated with the room you
+    are playing in, not with you individually beyond your seat in
+    that room.
+  </p>
+  <p>
+    <strong>Connection metadata.</strong> When you are connected to a
+    multiplayer game we record presence information (you are currently
+    in the room) and the timestamp of when you last lost connection.
+    This is used to allow other players' turns to proceed if you
+    disconnect for an extended period.
+  </p>
+  <p>
+    <strong>Crash and diagnostic information.</strong> If the app
+    crashes, anonymized crash reports (call stack, OS version, device
+    model) may be sent to our error monitoring provider (Sentry) so we
+    can diagnose and fix bugs. These reports do not include your
+    account identifier, display name, or game state.
+  </p>
+
+  <h2>Information We Do Not Collect</h2>
+  <p>We do not collect:</p>
+  <ul>
+    <li>Your real name, email address, phone number, or postal address.</li>
+    <li>Your contacts, photos, microphone, camera, location, or any other device sensors.</li>
+    <li>Your purchase history outside Par 3 Cards.</li>
+    <li>Tracking identifiers across other apps or websites.</li>
+  </ul>
+
+  <h2>How We Use Information</h2>
+  <p>We use the information we collect to:</p>
+  <ul>
+    <li>Run multiplayer games (synchronizing state across the players in a room).</li>
+    <li>Allow you to rejoin a game in progress after a brief disconnect.</li>
+    <li>Diagnose and fix bugs (via anonymized crash reports).</li>
+    <li>Serve advertising (see <strong>Advertising</strong> below).</li>
+  </ul>
+
+  <h2>Advertising</h2>
+  <p>
+    Par 3 Cards displays advertisements served by Google AdMob. AdMob
+    may use device-level identifiers (such as the Apple Advertising
+    Identifier, IDFA) to serve ads. The first time the app launches we
+    will ask, via Apple's App Tracking Transparency prompt, whether
+    you would like to allow this. You can change your choice at any
+    time in iOS Settings → Privacy &amp; Security → Tracking.
+  </p>
+  <p>
+    For information about how Google handles ad data, see Google's
+    privacy policy:
+    <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+  </p>
+  <p>
+    We do not share your account identifier, display name, or game
+    state with advertisers.
+  </p>
+
+  <h2>Data Retention</h2>
+  <ul>
+    <li><strong>Account data</strong> (your anonymous identifier and display name) is retained for as long as your account exists. You can delete your account from inside the app at any time (Settings → Delete my data).</li>
+    <li><strong>Game state</strong> is retained for as long as the game is in progress and for a short period afterwards (typically less than 24 hours) so that recent scores can be reviewed. Finished games are deleted on a rolling basis.</li>
+    <li><strong>Empty lobbies</strong> (rooms that were created but never started) are deleted automatically after a short period of inactivity.</li>
+    <li><strong>Crash reports</strong> are retained by our error monitoring provider per their policy (typically 90 days).</li>
+  </ul>
+
+  <h2>Deleting Your Data</h2>
+  <p>To delete all of your data:</p>
+  <ol>
+    <li>Open the app.</li>
+    <li>Tap the <strong>Settings</strong> gear icon.</li>
+    <li>Tap <strong>Delete my data</strong>.</li>
+    <li>Confirm.</li>
+  </ol>
+  <p>
+    This removes your account identifier, your display name, your
+    membership in any rooms you joined, and any rooms you hosted (which
+    will end any in-progress games in those rooms for the other
+    players). The deletion is immediate and cannot be undone.
+  </p>
+  <p>
+    If you uninstall the app without deleting your data first, the
+    local copy of your anonymous identifier is removed from your
+    device but the server-side record remains. Reinstalling will
+    create a fresh anonymous account.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Par 3 Cards is not directed to children under 13 and we do not
+    knowingly collect data from children under 13. The app does not
+    provide any mechanism for children to provide personal information
+    beyond a self-chosen display name.
+  </p>
+
+  <h2>Third-Party Services</h2>
+  <p>The following third parties receive data when you use Par 3 Cards:</p>
+  <ul>
+    <li>
+      <strong>Supabase</strong> (database, authentication, realtime
+      infrastructure) — receives your anonymous account identifier,
+      display name, and game state.
+      See <a href="https://supabase.com/privacy">https://supabase.com/privacy</a>.
+    </li>
+    <li>
+      <strong>Google AdMob</strong> (advertising) — may receive
+      device-level ad identifiers per Apple's App Tracking
+      Transparency choice you make.
+      See <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+    </li>
+    <li>
+      <strong>Sentry</strong> (crash reporting) — receives anonymized
+      crash reports.
+      See <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a>.
+    </li>
+  </ul>
+
+  <h2>Changes to This Policy</h2>
+  <p>
+    If we change this policy in a meaningful way we will update the
+    "Last updated" date at the top and surface a notice in the app on
+    next launch.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For questions about this Privacy Policy or your data, contact us at
+    <a href="mailto:pendzich.cody@gmail.com">pendzich.cody@gmail.com</a>.
+  </p>
+
+  <footer>
+    Par 3 Cards
+  </footer>
+</main>
+</body>
+</html>
