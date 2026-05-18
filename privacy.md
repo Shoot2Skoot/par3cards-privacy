@@ -1,5 +1,5 @@
 # Par 3 Cards — Privacy Policy
-
+ 
 _Last updated: 2026-05-17_
 
 This Privacy Policy describes how Par 3 Cards ("we", "the app") collects, uses,
